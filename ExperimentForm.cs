@@ -83,7 +83,9 @@ namespace MSKursForms
 
             RegressionEquation.Text = buildRegressionEquation(a, conclusionBool);
 
-            double Sadk = calculateSadk(experiment, experimentsKeys);
+            //double Sadk = calculateSadk(experiment, experimentsKeys);
+            double Sadk = calculateSadk(a, experimentsKeys, experiment);
+
             SadkTextBox.Text = Sadk.ToString();
 
             double fisherCoeff = calculateFisher(Sy, Sadk);
@@ -96,8 +98,55 @@ namespace MSKursForms
             {
                 fisherExpTextBox.Text = fisherCoeff.ToString();
                 fisherConclusion.Text = "Пройден";
-                buildGraphic(experiment, experimentsKeys);
+                buildGraphicTest(experiment, experimentsKeys, a);
             }
+        }
+
+        private void buildGraphicTest(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys, double[] a)
+        {
+            double[] expMiddle = new double[4];
+
+            for (int i = 0; i < expMiddle.Length; i++)
+            {
+                expMiddle[i] = (experiment[keys[i]].Item1 + experiment[keys[i]].Item2) / (double)2;
+            }
+
+            double[] calcPoints = new double[4];
+
+            for (int i = 0; i < keys.Length; i++)
+            {
+                calcPoints[i] = a[0] + a[1] * keys[i].Item2 + a[2] * keys[i].Item1 + a[3] * keys[i].Item2 * keys[i].Item1;
+            }
+
+            List<DataPoint> pointsMiddle = new List<DataPoint>();
+            List<DataPoint> pointsExp1 = new List<DataPoint>();
+
+            for (int i = 0; i < expMiddle.Length; i++)
+            {
+                pointsMiddle.Add(new DataPoint(i, expMiddle[i]));
+                pointsExp1.Add(new DataPoint(i, calcPoints[i]));
+            }
+
+            var plotModel = new PlotModel
+            {
+                Title = "Model"
+            };
+
+            var lineSeriesMiddle = new LineSeries
+            {
+                Title = "Экспериментальное",
+                ItemsSource = pointsMiddle
+            };
+            var lineSeries1 = new LineSeries
+            {
+                Title = "Расчитанное",
+                ItemsSource = pointsExp1
+            };
+
+            plotModel.Series.Add(lineSeriesMiddle);
+            plotModel.Series.Add(lineSeries1);
+
+            plotView1.Model = plotModel;
         }
 
         private void buildGraphic(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys)
@@ -167,7 +216,7 @@ namespace MSKursForms
             return Sy / Sadk;
         }
 
-        private double calculateSadk(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys)
+        private double calculateSadk(double[] a, (double, double)[] keys, Dictionary<(double, double), (double, double)> experiment)
         {
             double[] expMiddle = new double[4];
 
@@ -176,11 +225,34 @@ namespace MSKursForms
                 expMiddle[i] = (experiment[keys[i]].Item1 + experiment[keys[i]].Item2) / (double)2;
             }
 
-            double Sadk = (Math.Pow(expMiddle[0] - experiment[keys[0]].Item2, 2)) + Math.Pow(expMiddle[1] - experiment[keys[1]].Item2, 2) + Math.Pow(expMiddle[2]
-                - experiment[keys[2]].Item2, 2) + Math.Pow(expMiddle[3] - experiment[keys[3]].Item2, 2);
+            var Sadk = 0.0;
+            var responseFunctionValues = new double[4];
+
+            for (var i = 0; i < responseFunctionValues.Length; i++)
+            {
+                responseFunctionValues[i] = a[0]
+                                            + a[1] * keys[i].Item2
+                                            + a[2] * keys[i].Item1;
+
+                Sadk += Math.Pow(expMiddle[i] - responseFunctionValues[i], 2);
+            }
 
             return Sadk;
         }
+        //private double calculateSadk(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys)
+        //{
+        //    double[] expMiddle = new double[4];
+
+        //    for (int i = 0; i < expMiddle.Length; i++)
+        //    {
+        //        expMiddle[i] = (experiment[keys[i]].Item1 + experiment[keys[i]].Item2) / (double)2;
+        //    }
+
+        //    double Sadk = (Math.Pow(expMiddle[0] - experiment[keys[0]].Item2, 2)) + Math.Pow(expMiddle[1] - experiment[keys[1]].Item2, 2) + Math.Pow(expMiddle[2]
+        //        - experiment[keys[2]].Item2, 2) + Math.Pow(expMiddle[3] - experiment[keys[3]].Item2, 2);
+
+        //    return Sadk;
+        //}
 
         private string buildRegressionEquation(double[] a, bool[] conclusion)
         {
@@ -231,7 +303,7 @@ namespace MSKursForms
             double[] studentCoeff = new double[a.Length];
             for (int i = 0; i < a.Length; i++)
             {
-                studentCoeff[i] = a[i] / Sai;
+                studentCoeff[i] = Math.Abs(a[i]) / Math.Sqrt(Sai);
             }
             return studentCoeff;
         }

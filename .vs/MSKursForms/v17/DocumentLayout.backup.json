@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\MSKursForms\\MSKursForms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|D:\\MSKursForms\\MSKursForms\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,23 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Phase.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Phase.cs",
-              "RelativeDocumentMoniker": "Phase.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Phase.cs",
-              "RelativeToolTip": "Phase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:22:33.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Config.cs",
               "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Config.cs",
               "RelativeDocumentMoniker": "Config.cs",
@@ -78,8 +66,7 @@
               "RelativeToolTip": "Config.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:55:51.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:55:51.135Z"
             },
             {
               "$type": "Document",
@@ -103,6 +90,31 @@
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T16:34:39.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExperimentForm.cs",
+              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
+              "RelativeDocumentMoniker": "ExperimentForm.cs",
+              "ToolTip": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
+              "RelativeToolTip": "ExperimentForm.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAIEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T21:34:04.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Phase.cs",
+              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Phase.cs",
+              "RelativeDocumentMoniker": "Phase.cs",
+              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Phase.cs",
+              "RelativeToolTip": "Phase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:22:33.511Z"
             },
             {
               "$type": "Document",
@@ -130,19 +142,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExperimentForm.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
-              "RelativeDocumentMoniker": "ExperimentForm.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
-              "RelativeToolTip": "ExperimentForm.cs",
-              "ViewState": "AgIAAEABAAAAAAAAAAAAAFUBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T21:34:04.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "EngineStart.cs",
               "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\EngineStart.cs",
@@ -167,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Statistic.cs",
               "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Statistic.cs",
               "RelativeDocumentMoniker": "Statistic.cs",
