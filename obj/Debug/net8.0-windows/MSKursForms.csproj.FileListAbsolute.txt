@@ -43,3 +43,4 @@ D:\8семестр\MSKursForm\bin\Debug\net8.0-windows\OxyPlot.WindowsForms.dll
 D:\8семестр\MSKursForm\obj\Debug\net8.0-windows\MSKursFo.016D04A4.Up2Date
 D:\8семестр\MSKursForm\obj\Debug\net8.0-windows\MSKursForms.genruntimeconfig.cache
 D:\8семестр\MSKursForm\obj\Debug\net8.0-windows\ref\MSKursForms.dll
+D:\MSKursForms\MSKursForms\obj\Debug\net8.0-windows\MSKursForms.sourcelink.json

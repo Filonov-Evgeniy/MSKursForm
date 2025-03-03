@@ -85,19 +85,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "D:\\Merged Volume'Local Volume' (D)\\VisualStudio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\8семестр\\MSKursForm\\MSKursForms.csproj",
+      "projectUniqueName": "D:\\MSKursForms\\MSKursForms\\MSKursForms.csproj",
       "projectName": "MSKursForms",
-      "projectPath": "D:\\8семестр\\MSKursForm\\MSKursForms.csproj",
+      "projectPath": "D:\\MSKursForms\\MSKursForms\\MSKursForms.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\8семестр\\MSKursForm\\obj\\",
+      "outputPath": "D:\\MSKursForms\\MSKursForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Merged Volume'Local Volume' (D)\\VisualStudio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,9 +125,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -157,7 +157,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
