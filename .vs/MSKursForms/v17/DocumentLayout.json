@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\MSKursForms\\MSKursForms\\",
+  "WorkspaceRootPath": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\enginestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:enginestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\enginestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:enginestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\mskursforms\\mskursforms\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|d:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\mskursform\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E96E6C8-7FD2-4C21-B7A4-339B9BEE1E15}|MSKursForms.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,80 +50,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Statistic.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Statistic.cs",
-              "RelativeDocumentMoniker": "Statistic.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Statistic.cs",
-              "RelativeToolTip": "Statistic.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:14:20.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Channel.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Channel.cs",
-              "RelativeDocumentMoniker": "Channel.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Channel.cs",
-              "RelativeToolTip": "Channel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T21:56:11.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EngineStart.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\EngineStart.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\EngineStart.cs",
               "RelativeDocumentMoniker": "EngineStart.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\EngineStart.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\EngineStart.cs",
               "RelativeToolTip": "EngineStart.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAowGkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:57:34.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:57:34.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Config.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Config.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Config.cs",
               "RelativeDocumentMoniker": "Config.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Config.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Config.cs",
               "RelativeToolTip": "Config.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:55:51.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:55:51.135Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Settings.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Settings.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Settings.cs",
               "RelativeDocumentMoniker": "Settings.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Settings.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Settings.cs",
               "RelativeToolTip": "Settings.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAuwC0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:35:02.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T17:35:02.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Form1.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T16:34:39.475Z",
@@ -131,24 +102,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Form1.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Form1.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBYAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T17:31:58.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\ExperimentForm.cs",
               "RelativeDocumentMoniker": "ExperimentForm.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T21:32:35.473Z",
@@ -158,27 +129,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExperimentForm.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\ExperimentForm.cs",
               "RelativeDocumentMoniker": "ExperimentForm.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\ExperimentForm.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\ExperimentForm.cs",
               "RelativeToolTip": "ExperimentForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAASwEYAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T21:34:04.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Channel.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Channel.cs",
+              "RelativeDocumentMoniker": "Channel.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Channel.cs",
+              "RelativeToolTip": "Channel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T21:56:11.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Statistic.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Statistic.cs",
+              "RelativeDocumentMoniker": "Statistic.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Statistic.cs",
+              "RelativeToolTip": "Statistic.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T22:14:20.19Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\MSKursForms\\MSKursForms\\Order.cs",
+              "DocumentMoniker": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Order.cs",
               "RelativeDocumentMoniker": "Order.cs",
-              "ToolTip": "D:\\MSKursForms\\MSKursForms\\Order.cs",
+              "ToolTip": "D:\\8\u0441\u0435\u043C\u0435\u0441\u0442\u0440\\MSKursForm\\Order.cs",
               "RelativeToolTip": "Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:53:40.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:53:40.171Z"
             }
           ]
         }
