@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSKursForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81ed764d41d600d03fed1854b250c2d2519277c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSKursForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSKursForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

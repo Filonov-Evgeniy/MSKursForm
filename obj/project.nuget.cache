@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEcmppM0Nnk=",
+  "dgSpecHash": "ULKACoqL+Pw=",
   "success": true,
-  "projectFilePath": "D:\\MSKursForms\\MSKursForms\\MSKursForms.csproj",
+  "projectFilePath": "D:\\8семестр\\MSKursForm\\MSKursForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\oxyplot.core\\2.2.0\\oxyplot.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\oxyplot.windowsforms\\2.2.0\\oxyplot.windowsforms.2.2.0.nupkg.sha512"
