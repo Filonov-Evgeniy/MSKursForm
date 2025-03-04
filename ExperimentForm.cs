@@ -100,6 +100,34 @@ namespace MSKursForms
                 fisherConclusion.Text = "Пройден";
                 buildGraphicTest(experiment, experimentsKeys, a);
             }
+
+            fillMatrix(experiment, experimentsKeys);
+        }
+
+        private void fillMatrix(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys)
+        {
+            u11textBox.Text = keys[0].Item2.ToString();
+            u21textBox.Text = keys[0].Item1.ToString();
+            u12textBox.Text = keys[1].Item2.ToString();
+            u22textBox.Text = keys[1].Item1.ToString();
+            u13textBox.Text = keys[2].Item2.ToString();
+            u23textBox.Text = keys[2].Item1.ToString();
+            u14textBox.Text = keys[3].Item2.ToString();
+            u24textBox.Text = keys[3].Item1.ToString();
+
+            y11textBox.Text = experiment[keys[0]].Item1.ToString();
+            y21textBox.Text = experiment[keys[0]].Item2.ToString();
+            y12textBox.Text = experiment[keys[1]].Item1.ToString();
+            y22textBox.Text = experiment[keys[1]].Item2.ToString();
+            y13textBox.Text = experiment[keys[2]].Item1.ToString();
+            y23textBox.Text = experiment[keys[2]].Item2.ToString();
+            y14textBox.Text = experiment[keys[3]].Item1.ToString();
+            y24textBox.Text = experiment[keys[3]].Item2.ToString();
+
+            Y1textBox.Text = ((experiment[keys[0]].Item1 + experiment[keys[0]].Item2) / 2).ToString();
+            Y2textBox.Text = ((experiment[keys[1]].Item1 + experiment[keys[1]].Item2) / 2).ToString();
+            Y3textBox.Text = ((experiment[keys[2]].Item1 + experiment[keys[2]].Item2) / 2).ToString();
+            Y4textBox.Text = ((experiment[keys[3]].Item1 + experiment[keys[3]].Item2) / 2).ToString();
         }
 
         private void buildGraphicTest(Dictionary<(double, double), (double, double)> experiment, (double, double)[] keys, double[] a)

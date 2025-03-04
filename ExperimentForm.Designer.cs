@@ -100,6 +100,30 @@
             label28 = new Label();
             plotView1 = new OxyPlot.WindowsForms.PlotView();
             Cansel = new Button();
+            label32 = new Label();
+            label33 = new Label();
+            label34 = new Label();
+            u11textBox = new TextBox();
+            u21textBox = new TextBox();
+            y11textBox = new TextBox();
+            y21textBox = new TextBox();
+            Y1textBox = new TextBox();
+            Y2textBox = new TextBox();
+            y22textBox = new TextBox();
+            y12textBox = new TextBox();
+            u22textBox = new TextBox();
+            u12textBox = new TextBox();
+            Y3textBox = new TextBox();
+            y23textBox = new TextBox();
+            y13textBox = new TextBox();
+            u23textBox = new TextBox();
+            u13textBox = new TextBox();
+            Y4textBox = new TextBox();
+            y24textBox = new TextBox();
+            y14textBox = new TextBox();
+            u24textBox = new TextBox();
+            u14textBox = new TextBox();
+            panel8 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -107,6 +131,7 @@
             panel5.SuspendLayout();
             panel6.SuspendLayout();
             panel7.SuspendLayout();
+            panel8.SuspendLayout();
             SuspendLayout();
             // 
             // runExperiment
@@ -780,12 +805,231 @@
             Cansel.UseVisualStyleBackColor = true;
             Cansel.Click += Cansel_Click;
             // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(72, 14);
+            label32.Name = "label32";
+            label32.Size = new Size(38, 15);
+            label32.TabIndex = 28;
+            label32.Text = "u1/u2";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(178, 14);
+            label33.Name = "label33";
+            label33.Size = new Size(36, 15);
+            label33.TabIndex = 29;
+            label33.Text = "y1/y2";
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Location = new Point(241, 14);
+            label34.Name = "label34";
+            label34.Size = new Size(27, 15);
+            label34.TabIndex = 30;
+            label34.Text = "Yср";
+            // 
+            // u11textBox
+            // 
+            u11textBox.Location = new Point(42, 39);
+            u11textBox.Margin = new Padding(3, 2, 3, 2);
+            u11textBox.Name = "u11textBox";
+            u11textBox.Size = new Size(41, 23);
+            u11textBox.TabIndex = 24;
+            // 
+            // u21textBox
+            // 
+            u21textBox.Location = new Point(89, 39);
+            u21textBox.Margin = new Padding(3, 2, 3, 2);
+            u21textBox.Name = "u21textBox";
+            u21textBox.Size = new Size(39, 23);
+            u21textBox.TabIndex = 31;
+            // 
+            // y11textBox
+            // 
+            y11textBox.Location = new Point(135, 39);
+            y11textBox.Margin = new Padding(3, 2, 3, 2);
+            y11textBox.Name = "y11textBox";
+            y11textBox.Size = new Size(38, 23);
+            y11textBox.TabIndex = 32;
+            // 
+            // y21textBox
+            // 
+            y21textBox.Location = new Point(179, 39);
+            y21textBox.Margin = new Padding(3, 2, 3, 2);
+            y21textBox.Name = "y21textBox";
+            y21textBox.Size = new Size(35, 23);
+            y21textBox.TabIndex = 33;
+            // 
+            // Y1textBox
+            // 
+            Y1textBox.Location = new Point(220, 39);
+            Y1textBox.Margin = new Padding(3, 2, 3, 2);
+            Y1textBox.Name = "Y1textBox";
+            Y1textBox.Size = new Size(52, 23);
+            Y1textBox.TabIndex = 34;
+            // 
+            // Y2textBox
+            // 
+            Y2textBox.Location = new Point(220, 66);
+            Y2textBox.Margin = new Padding(3, 2, 3, 2);
+            Y2textBox.Name = "Y2textBox";
+            Y2textBox.Size = new Size(52, 23);
+            Y2textBox.TabIndex = 39;
+            // 
+            // y22textBox
+            // 
+            y22textBox.Location = new Point(179, 66);
+            y22textBox.Margin = new Padding(3, 2, 3, 2);
+            y22textBox.Name = "y22textBox";
+            y22textBox.Size = new Size(35, 23);
+            y22textBox.TabIndex = 38;
+            // 
+            // y12textBox
+            // 
+            y12textBox.Location = new Point(135, 66);
+            y12textBox.Margin = new Padding(3, 2, 3, 2);
+            y12textBox.Name = "y12textBox";
+            y12textBox.Size = new Size(38, 23);
+            y12textBox.TabIndex = 37;
+            // 
+            // u22textBox
+            // 
+            u22textBox.Location = new Point(89, 66);
+            u22textBox.Margin = new Padding(3, 2, 3, 2);
+            u22textBox.Name = "u22textBox";
+            u22textBox.Size = new Size(39, 23);
+            u22textBox.TabIndex = 36;
+            // 
+            // u12textBox
+            // 
+            u12textBox.Location = new Point(42, 66);
+            u12textBox.Margin = new Padding(3, 2, 3, 2);
+            u12textBox.Name = "u12textBox";
+            u12textBox.Size = new Size(41, 23);
+            u12textBox.TabIndex = 35;
+            // 
+            // Y3textBox
+            // 
+            Y3textBox.Location = new Point(220, 93);
+            Y3textBox.Margin = new Padding(3, 2, 3, 2);
+            Y3textBox.Name = "Y3textBox";
+            Y3textBox.Size = new Size(52, 23);
+            Y3textBox.TabIndex = 44;
+            // 
+            // y23textBox
+            // 
+            y23textBox.Location = new Point(179, 93);
+            y23textBox.Margin = new Padding(3, 2, 3, 2);
+            y23textBox.Name = "y23textBox";
+            y23textBox.Size = new Size(35, 23);
+            y23textBox.TabIndex = 43;
+            // 
+            // y13textBox
+            // 
+            y13textBox.Location = new Point(135, 93);
+            y13textBox.Margin = new Padding(3, 2, 3, 2);
+            y13textBox.Name = "y13textBox";
+            y13textBox.Size = new Size(38, 23);
+            y13textBox.TabIndex = 42;
+            // 
+            // u23textBox
+            // 
+            u23textBox.Location = new Point(89, 93);
+            u23textBox.Margin = new Padding(3, 2, 3, 2);
+            u23textBox.Name = "u23textBox";
+            u23textBox.Size = new Size(39, 23);
+            u23textBox.TabIndex = 41;
+            // 
+            // u13textBox
+            // 
+            u13textBox.Location = new Point(42, 93);
+            u13textBox.Margin = new Padding(3, 2, 3, 2);
+            u13textBox.Name = "u13textBox";
+            u13textBox.Size = new Size(41, 23);
+            u13textBox.TabIndex = 40;
+            // 
+            // Y4textBox
+            // 
+            Y4textBox.Location = new Point(220, 120);
+            Y4textBox.Margin = new Padding(3, 2, 3, 2);
+            Y4textBox.Name = "Y4textBox";
+            Y4textBox.Size = new Size(52, 23);
+            Y4textBox.TabIndex = 49;
+            // 
+            // y24textBox
+            // 
+            y24textBox.Location = new Point(179, 120);
+            y24textBox.Margin = new Padding(3, 2, 3, 2);
+            y24textBox.Name = "y24textBox";
+            y24textBox.Size = new Size(35, 23);
+            y24textBox.TabIndex = 48;
+            // 
+            // y14textBox
+            // 
+            y14textBox.Location = new Point(135, 120);
+            y14textBox.Margin = new Padding(3, 2, 3, 2);
+            y14textBox.Name = "y14textBox";
+            y14textBox.Size = new Size(38, 23);
+            y14textBox.TabIndex = 47;
+            // 
+            // u24textBox
+            // 
+            u24textBox.Location = new Point(89, 120);
+            u24textBox.Margin = new Padding(3, 2, 3, 2);
+            u24textBox.Name = "u24textBox";
+            u24textBox.Size = new Size(39, 23);
+            u24textBox.TabIndex = 46;
+            // 
+            // u14textBox
+            // 
+            u14textBox.Location = new Point(42, 120);
+            u14textBox.Margin = new Padding(3, 2, 3, 2);
+            u14textBox.Name = "u14textBox";
+            u14textBox.Size = new Size(41, 23);
+            u14textBox.TabIndex = 45;
+            // 
+            // panel8
+            // 
+            panel8.BackColor = SystemColors.Info;
+            panel8.Controls.Add(Y3textBox);
+            panel8.Controls.Add(Y4textBox);
+            panel8.Controls.Add(label32);
+            panel8.Controls.Add(y24textBox);
+            panel8.Controls.Add(label33);
+            panel8.Controls.Add(y14textBox);
+            panel8.Controls.Add(label34);
+            panel8.Controls.Add(u24textBox);
+            panel8.Controls.Add(u11textBox);
+            panel8.Controls.Add(u14textBox);
+            panel8.Controls.Add(u21textBox);
+            panel8.Controls.Add(y11textBox);
+            panel8.Controls.Add(y23textBox);
+            panel8.Controls.Add(y21textBox);
+            panel8.Controls.Add(y13textBox);
+            panel8.Controls.Add(Y1textBox);
+            panel8.Controls.Add(u23textBox);
+            panel8.Controls.Add(u12textBox);
+            panel8.Controls.Add(u13textBox);
+            panel8.Controls.Add(u22textBox);
+            panel8.Controls.Add(Y2textBox);
+            panel8.Controls.Add(y12textBox);
+            panel8.Controls.Add(y22textBox);
+            panel8.Location = new Point(226, 409);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(318, 162);
+            panel8.TabIndex = 50;
+            // 
             // ExperimentForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(1463, 411);
+            ClientSize = new Size(1466, 662);
+            Controls.Add(panel8);
             Controls.Add(Cansel);
             Controls.Add(plotView1);
             Controls.Add(panel7);
@@ -811,6 +1055,8 @@
             panel6.PerformLayout();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -887,5 +1133,29 @@
         private Label label31;
         private OxyPlot.WindowsForms.PlotView plotView1;
         private Button Cansel;
+        private Label label32;
+        private Label label33;
+        private Label label34;
+        private TextBox u11textBox;
+        private TextBox u21textBox;
+        private TextBox y11textBox;
+        private TextBox y21textBox;
+        private TextBox Y1textBox;
+        private TextBox Y2textBox;
+        private TextBox y22textBox;
+        private TextBox y12textBox;
+        private TextBox u22textBox;
+        private TextBox u12textBox;
+        private TextBox Y3textBox;
+        private TextBox y23textBox;
+        private TextBox y13textBox;
+        private TextBox u23textBox;
+        private TextBox u13textBox;
+        private TextBox Y4textBox;
+        private TextBox y24textBox;
+        private TextBox y14textBox;
+        private TextBox u24textBox;
+        private TextBox u14textBox;
+        private Panel panel8;
     }
 }
